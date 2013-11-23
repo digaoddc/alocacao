@@ -73,12 +73,22 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Alocacao.cs" />
+    <Compile Include="Models\Disciplina.cs" />
+    <Compile Include="Models\EscalaConforto.cs" />
+    <Compile Include="Models\Horario.cs" />
+    <Compile Include="Models\Intervalo.cs" />
+    <Compile Include="Models\Periodo.cs" />
+    <Compile Include="Models\Professor.cs" />
+    <Compile Include="Models\RegimeTrabalho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.js" />
     <Content Include="Global.asax" />
+    <Content Include="Models\Model.csproj" />
+    <Content Include="Views\AlocacaoProfessor\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -112,6 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
