@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Model.Alocacao">
+    <Position X="6.25" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAIAAAAAAEAAAAAEAAAAAAAAAAAIAABAAAAAA=</HashCode>
+      <FileName>Alocacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Disciplina">
+    <Position X="3.25" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Disciplina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Horario">
+    <Position X="6.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAQAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Horario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Intervalo">
+    <Position X="0.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Intervalo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Professor">
+    <Position X="9.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgDAAAAAAAAAIAAAAACAAAAAAAAAAgQkAAAA=</HashCode>
+      <FileName>Professor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Model.EscalaConforto">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EscalaConforto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.Periodo">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Periodo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.RegimeTrabalho">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIQAAAAAAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>RegimeTrabalho.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
