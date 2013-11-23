@@ -5,8 +5,8 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: ViewData["Message"] %></h2>
+    <h2>Sistema de Alocacao de Professores<%//: ViewData["Message"] %></h2>
     <p>
-        To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat fringilla fermentum. Nullam id ligula neque. Proin accumsan adipiscing justo, nec pulvinar tortor lobortis in. Nulla porta neque ut elit mattis porttitor. Duis adipiscing, orci id interdum placerat, augue justo tristique massa, ut dapibus tortor metus vitae justo. Pellentesque accumsan vel nibh in congue. Aenean eleifend augue sollicitudin dignissim tincidunt. Curabitur gravida neque vulputate enim semper eleifend. Phasellus non mauris vitae velit lobortis aliquet. </a>.
     </p>
 </asp:Content>
