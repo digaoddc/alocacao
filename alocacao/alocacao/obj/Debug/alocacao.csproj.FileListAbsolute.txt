@@ -1,0 +1,5 @@
+C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\bin\alocacao.dll
+C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\bin\alocacao.pdb
+C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\obj\Debug\alocacao.csprojResolveAssemblyReference.cache
+C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\obj\Debug\alocacao.dll
+C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\obj\Debug\alocacao.pdb
