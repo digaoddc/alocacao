@@ -3,3 +3,8 @@ C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\bin\alocacao.pdb
 C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\obj\Debug\alocacao.csprojResolveAssemblyReference.cache
 C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\obj\Debug\alocacao.dll
 C:\Users\aragorn\Desktop\alocacao\alocacao\alocacao\obj\Debug\alocacao.pdb
+C:\Users\midori\Documents\Visual Studio 2010\Projects\SistemaDeAlocacaoProfessores\alocacao\alocacao\bin\alocacao.dll
+C:\Users\midori\Documents\Visual Studio 2010\Projects\SistemaDeAlocacaoProfessores\alocacao\alocacao\bin\alocacao.pdb
+C:\Users\midori\Documents\Visual Studio 2010\Projects\SistemaDeAlocacaoProfessores\alocacao\alocacao\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\midori\Documents\Visual Studio 2010\Projects\SistemaDeAlocacaoProfessores\alocacao\alocacao\obj\Debug\alocacao.dll
+C:\Users\midori\Documents\Visual Studio 2010\Projects\SistemaDeAlocacaoProfessores\alocacao\alocacao\obj\Debug\alocacao.pdb

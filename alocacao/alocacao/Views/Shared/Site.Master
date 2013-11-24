@@ -26,7 +26,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="#Professores">Professores</a></li>
-            <li><a href="#Disciplinas">Disciplinas</a></li>
+            <li><%: Html.ActionLink("Disciplina", "New", "Disciplina")%></li>
             <li><a href="#Disciplina">Disciplina a Lecionar</a></li>
             <li><%: Html.ActionLink("Alocar", "Index", "AlocacaoProfessor")%></li>
           </ul>
