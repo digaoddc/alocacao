@@ -16,5 +16,13 @@ namespace alocacao.Controllers
             return View();
         }
 
+        //
+        // POST: /AlocacaoProfessor/gravar
+
+        public ActionResult Gravar()
+        {
+            return View();
+        }
+
     }
 }
