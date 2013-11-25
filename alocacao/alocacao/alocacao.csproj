@@ -93,7 +93,7 @@
     <Content Include="Content\bootstrap.js" />
     <Content Include="Global.asax" />
     <Content Include="Models\Model.csproj" />
-    <Content Include="Views\AlocacaoProfessor\Index.aspx" />
+    <Content Include="Views\AlocacaoProfessor\New.aspx" />
     <Content Include="Views\Disciplina\Edit.aspx" />
     <Content Include="Views\Disciplina\Index.aspx" />
     <Content Include="Views\Disciplina\New.aspx" />
