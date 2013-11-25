@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using alocacao.Models;
+using alocacao.Dao;
 
 namespace alocacao.Controllers
 {
     public class AlocacaoProfessorController : Controller
     {
+        ProfessorDao professorDao;
+
+
         //
         // GET: /AlocacaoProfessor/
 
@@ -16,11 +21,16 @@ namespace alocacao.Controllers
             return View();
         }
 
-        //
-        // POST: /AlocacaoProfessor/gravar
 
-        public ActionResult Gravar()
+        //
+        // GET: /AlocacaoProfessor/New
+
+        public ActionResult New()
         {
+            this.professorDao = new ProfessorDao();
+            List<Professor> professores = this.professorDao.GetAll();
+            ViewData["professor"] = professores;
+
             return View();
         }
 
