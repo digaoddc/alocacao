@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Disciplinas>
+  <Disciplina>
+    <Id>930b4319-5291-4201-892e-d56928a9bbca</Id>
+    <Nome>Logica de Programacao</Nome>
+    <Sigla>LP</Sigla>
+    <CargaHoraria> 3 </CargaHoraria>
+  </Disciplina>
+  <Disciplina>
+    <Id>ac26b1f7-1ed9-4259-abf1-c01ade835f23</Id>
+    <Nome>Sistemas Operacionais</Nome>
+    <Sigla>SO1</Sigla>
+    <CargaHoraria>8</CargaHoraria>
+  </Disciplina>
+  <Disciplina> <Id>202120f7-9109-40f8-80bf-5524e292c085</Id><CargaHoraria>0</CargaHoraria> </Disciplina>
+</Disciplinas>

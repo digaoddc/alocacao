@@ -3,104 +3,64 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Xml.Serialization;
-using System.IO;
+using alocacao.Models;
+using alocacao.Dao;
 
 namespace alocacao.Controllers
 {
     public class DisciplinaController : Controller
     {
+        DisciplinaDao disciplinaDao;
+        public DisciplinaController()
+        {
+            this.disciplinaDao = new DisciplinaDao();
+
+        }
         //
-        // GET: /Disciplina/
+        // GET: /Professor/
 
         public ActionResult Index()
         {
-            return View();
+            List<Disciplina> disciplinas = this.disciplinaDao.GetAll();
+            return View(disciplinas);
         }
-
-        //
-        // GET: /Disciplina/Details/5
-
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        //
-        // GET: /Disciplina/Create
 
         public ActionResult New()
         {
             return View();
-        } 
-
-        //
-                
-        public bool Exportar(String caminho)
-        {
-            try
-            {
-                Stream stream = new FileStream(caminho, FileMode.Create);
-                XmlSerializer serializador = new XmlSerializer(typeof(DisciplinaController));
-                serializador.Serialize(stream, this);
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        }
-        
-        //
-        // GET: /Disciplina/Edit/5
- 
-        public ActionResult Edit(int id)
-        {
-            return View();
         }
 
-        //
-        // POST: /Disciplina/Edit/5
+        public ActionResult Show(string id)
+        {
+            Disciplina disciplina = this.disciplinaDao.GetById(id);
+            return View(disciplina);
+        }
+
+        public ActionResult Create(Disciplina disciplina)
+        {
+            this.disciplinaDao.Save(disciplina);
+            return RedirectToAction("Index");
+        }
 
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Delete(string id)
         {
-            try
-            {
-                // TODO: Add update logic here
- 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            this.disciplinaDao.Delete(id);
+            return RedirectToAction("Index");
         }
 
-        //
-        // GET: /Disciplina/Delete/5
- 
-        public ActionResult Delete(int id)
+        public ActionResult Edit(string id)
         {
-            return View();
+            Disciplina disciplina = this.disciplinaDao.GetById(id);
+            return View(disciplina);
         }
 
-        //
-        // POST: /Disciplina/Delete/5
-
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Update(Disciplina disciplina)
         {
-            try
-            {
-                // TODO: Add delete logic here
- 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            this.disciplinaDao.Delete(disciplina.Id.ToString());
+            this.disciplinaDao.Save(disciplina);
+            return RedirectToAction("Index");
         }
+
     }
 }

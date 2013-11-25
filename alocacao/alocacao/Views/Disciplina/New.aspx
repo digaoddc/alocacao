@@ -1,42 +1,34 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-	New
-     <script language="javascript" type="text/javascript">
-// <![CDATA[
-
-         function gravarDisc_onclick() {
-             create()
-         }
-
-// ]]>
-    </script>
+	Cadastro de Disciplina
 </asp:Content>
 
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
-    <h2>Cadastro de Disciplina</h2>
-  
-       <form id="form1" runat="server" class="form-horizontal">
-    <div class="form-group">
-    
-    <asp:Label ID="Lblnome" runat="server" Text="Nome da disciplina: " class="control-label col-sm-3 col-md-2"></asp:Label>
-    <asp:TextBox ID="Txtnome" runat="server" Width="359px" class="form-control"></asp:TextBox>
-    
-        <br />
-    
-    <asp:Label ID="Lblsigla" runat="server" Text="Sigla: " class="control-label col-sm-3 col-md-2"></asp:Label>
-    <asp:TextBox ID="Txtsigla" runat="server" Width="133px" class="form-control" ></asp:TextBox>
-    
-        <br />
-    
-    <asp:Label ID="Lblcarga" runat="server" Text="Carga horária: " class="control-label col-sm-3 col-md-2"></asp:Label>
-    <asp:TextBox ID="Txtcarga" runat="server" class="form-control" Width="133px" ></asp:TextBox>
-           
-    
-        <br />
-        <br />
-        <input id="gravarDisc" type="submit" value="Salvar" onclick="return gravarDisc_onclick()" /></div>
+ 
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+  <h2 style="text-align: center;">Cadastro de Disciplina<h2>
+    <form action="/Disciplina/Create" class="well" role="form">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nome</label>
+        <input type="text" class="form-control" name="disciplina.Nome" id="dNome" placeholder="Insira o nome">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Sigla</label>
+        <input type="text" class="form-control" name="disciplina.Sigla" id="dSigla" placeholder="Insira a sigla">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Carga Horaria</label>
+        <input type="text" class="form-control" name="disciplina.CargaHoraria" id="dCarga" placeholder="Insira a carga horaria">
+      </div>          
+         
+      <input type="submit" class="btn btn-default"/>
     </form>
-
+  </div>
+  <div class="col-md-3"></div>
+</div>
+   
 </asp:Content>
