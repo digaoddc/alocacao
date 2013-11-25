@@ -71,6 +71,7 @@
     <Compile Include="Controllers\DisciplinaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfessorController.cs" />
+    <Compile Include="Dao\DisciplinaDao.cs" />
     <Compile Include="Dao\IRepositorio.cs" />
     <Compile Include="Dao\ProfessorDao.cs" />
     <Compile Include="Global.asax.cs">
@@ -94,6 +95,7 @@
     <Content Include="Models\Model.csproj" />
     <Content Include="Views\AlocacaoProfessor\Index.aspx" />
     <Content Include="Views\Disciplina\Edit.aspx" />
+    <Content Include="Views\Disciplina\Index.aspx" />
     <Content Include="Views\Disciplina\New.aspx" />
     <Content Include="Views\Disciplina\Show.aspx" />
     <Content Include="Views\Professor\Edit.aspx" />
