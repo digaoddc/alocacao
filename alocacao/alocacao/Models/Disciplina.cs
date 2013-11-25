@@ -17,6 +17,6 @@ namespace alocacao.Models
         public String Nome { get; set; }
         public String Sigla { get; set; }
         public int CargaHoraria { get; set; }
-        
+        public bool Status { get; set; }
     }
 }

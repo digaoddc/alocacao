@@ -5,12 +5,14 @@
     <Nome>Logica de Programacao</Nome>
     <Sigla>LP</Sigla>
     <CargaHoraria> 3 </CargaHoraria>
+    <Status>true</Status>
   </Disciplina>
   <Disciplina>
     <Id>ac26b1f7-1ed9-4259-abf1-c01ade835f23</Id>
     <Nome>Sistemas Operacionais</Nome>
     <Sigla>SO1</Sigla>
     <CargaHoraria>8</CargaHoraria>
+    <Status>true</Status>
   </Disciplina>
-  <Disciplina> <Id>202120f7-9109-40f8-80bf-5524e292c085</Id><CargaHoraria>0</CargaHoraria> </Disciplina>
+  <Disciplina> <Id>ed7d4345-a4ad-4ea8-9050-e3ba95680fcf</Id><Nome>Comunicacao e Expressao</Nome><Sigla>CE1</Sigla><CargaHoraria>2</CargaHoraria><Status>true</Status> </Disciplina>
 </Disciplinas>
