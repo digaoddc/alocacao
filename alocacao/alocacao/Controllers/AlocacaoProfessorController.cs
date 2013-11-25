@@ -11,6 +11,7 @@ namespace alocacao.Controllers
     public class AlocacaoProfessorController : Controller
     {
         ProfessorDao professorDao;
+        DisciplinaDao disciplinaDao;
 
 
         //
@@ -30,6 +31,10 @@ namespace alocacao.Controllers
             this.professorDao = new ProfessorDao();
             List<Professor> professores = this.professorDao.GetAll();
             ViewData["professor"] = professores;
+
+            this.disciplinaDao = new DisciplinaDao();
+            List<Disciplina> disciplinas = this.disciplinaDao.GetAll();
+            ViewData["disciplina"] = disciplinas;
 
             return View();
         }

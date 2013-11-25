@@ -36,7 +36,7 @@
 
     <br />
     <br />
-    <asp:Label ID="Label2" runat="server" Text="Dia da Semana: "></asp:Label>
+       <asp:Label ID="Label2" runat="server" Text="Dia da Semana: "></asp:Label>
            <asp:DropDownList ID="dropDownDiaSemana" runat="server">
             <asp:ListItem>Segunda</asp:ListItem>
             <asp:ListItem>Terça</asp:ListItem>
@@ -44,6 +44,23 @@
             <asp:ListItem>Quinta</asp:ListItem>
             <asp:ListItem>Sexta</asp:ListItem>
             <asp:ListItem>Sábado</asp:ListItem>
+        </asp:DropDownList>
+        
+
+        <br />
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="Ano: "></asp:Label>
+        <asp:DropDownList ID="dropDownAno" runat="server" style="margin-left: 3px">
+            <asp:ListItem>2014</asp:ListItem>
+            <asp:ListItem>2013</asp:ListItem>
+        </asp:DropDownList>
+        <br />
+        <br />
+
+        <asp:Label ID="Label4" runat="server" Text="Semestre: "></asp:Label>
+        <asp:DropDownList ID="dropDownSemestre" runat="server" style="margin-left: 6px">
+            <asp:ListItem Value="1">1º</asp:ListItem>
+            <asp:ListItem Value="2">2º</asp:ListItem>
         </asp:DropDownList>
 
 
