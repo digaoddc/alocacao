@@ -13,41 +13,5 @@
     <RegimeDeTrabalho>vinte</RegimeDeTrabalho>
     <Area>oio</Area>
   </Professor>
-  <Professor>
-    <Id>7bdfa633-1256-40a4-9b64-c53dd4406550</Id>
-    <Nome>asdas</Nome>
-    <Email>phiee@ters.com</Email>
-    <Prontuario>1231232132</Prontuario>
-    <EhCordenador>false</EhCordenador>
-    <Telefone>12341234</Telefone>
-    <Celular>987654321</Celular>
-    <Apelido>te</Apelido>
-    <RegimeDeTrabalho>substituto</RegimeDeTrabalho>
-    <Area>teste</Area>
-  </Professor>
-  <Professor>
-    <Id>d9e9c6e0-4a48-45b4-845a-988aa0b70f7d</Id>
-    <Nome>hhho</Nome>
-    <Email>dfsdffs@asdas.com</Email>
-    <Senha>12341234</Senha>
-    <Prontuario>12345678</Prontuario>
-    <EhCordenador>false</EhCordenador>
-    <Telefone>987654321</Telefone>
-    <Celular>12345678</Celular>
-    <Apelido>esdf</Apelido>
-    <RegimeDeTrabalho>quarenta</RegimeDeTrabalho>
-    <Area>sdfs</Area>
-  </Professor>
-  <Professor>
-    <Id>67bb0cad-c8c0-4566-beb0-49a6ab744550</Id>
-    <Nome>Philipe</Nome>
-    <Email>philipe.cortez@hotmail.com</Email>
-    <Prontuario>1166883</Prontuario>
-    <EhCordenador>false</EhCordenador>
-    <Telefone>12341234</Telefone>
-    <Celular>912341234</Celular>
-    <Apelido>lipe</Apelido>
-    <RegimeDeTrabalho>rde</RegimeDeTrabalho>
-    <Area>teste</Area>
-  </Professor>
+  
 </Professores>
