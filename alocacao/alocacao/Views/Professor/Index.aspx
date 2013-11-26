@@ -48,4 +48,6 @@
         </div>
     </div>
 
+    <%= Html.ActionLink("Nova", "New", "Professor")%>
+
 </asp:Content>

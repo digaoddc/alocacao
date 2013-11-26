@@ -28,7 +28,7 @@
             <li><%: Html.ActionLink("Professor", "Index", "Professor")%></li>
             <li><%: Html.ActionLink("Disciplina", "Index", "Disciplina")%></li>
             <li><a href="#Disciplina">Disciplina a Lecionar</a></li>
-            <li><%: Html.ActionLink("Alocar", "New", "AlocacaoProfessor")%></li>
+            <li><%: Html.ActionLink("Alocar", "Index", "AlocacaoProfessor")%></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
