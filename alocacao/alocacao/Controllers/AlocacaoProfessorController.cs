@@ -14,12 +14,20 @@ namespace alocacao.Controllers
         DisciplinaDao disciplinaDao;
 
 
+        AlocacaoDAO alocacaoDao;
+        public AlocacaoProfessorController()
+        {
+            this.alocacaoDao = new AlocacaoDAO();
+
+        }
+
         //
         // GET: /AlocacaoProfessor/
 
         public ActionResult Index()
         {
-            return View();
+            List<Alocacao> alocacoes = this.alocacaoDao.GetAll();
+            return View(alocacoes);
         }
 
 
@@ -37,6 +45,38 @@ namespace alocacao.Controllers
             ViewData["disciplina"] = disciplinas;
 
             return View();
+        }
+
+        public ActionResult Show(string id)
+        {
+            Alocacao alocacao = this.alocacaoDao.GetById(id);
+            return View(alocacao);
+        }
+
+        public ActionResult Create(Alocacao alocacao)
+        {
+            this.alocacaoDao.Save(alocacao);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Delete(string id)
+        {
+            this.alocacaoDao.Delete(id);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Edit(string id)
+        {
+            Alocacao alocacao = this.alocacaoDao.GetById(id);
+            return View(alocacao);
+        }
+
+        public ActionResult Update(Alocacao alocacao)
+        {
+            this.alocacaoDao.Delete(alocacao.Id.ToString());
+            this.alocacaoDao.Save(alocacao);
+            return RedirectToAction("Index");
         }
 
     }

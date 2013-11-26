@@ -71,6 +71,7 @@
     <Compile Include="Controllers\DisciplinaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfessorController.cs" />
+    <Compile Include="Dao\AlocacaoDAO.cs" />
     <Compile Include="Dao\DisciplinaDao.cs" />
     <Compile Include="Dao\IRepositorio.cs" />
     <Compile Include="Dao\ProfessorDao.cs" />
