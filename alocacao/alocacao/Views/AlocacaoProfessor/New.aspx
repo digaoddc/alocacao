@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <h2>Alocar Professor</h2>
-    <form id="form1" runat="server" action="/AlocacaoProfessor/Create" class="well" role="form">
+    <form id="form1" runat="server" class="well">
 
     <div class="form-group">
         <asp:Label ID="Label1" runat="server" Text="Período: "></asp:Label>
@@ -20,6 +20,8 @@
 
     <div class="form-group">
         <asp:Label ID="Label5" runat="server" Text="Disciplina: "></asp:Label>
+        <asp:DropDownList ID="DropDownList3" runat="server">
+        </asp:DropDownList>
     </div>
 
 
