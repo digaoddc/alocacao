@@ -23,8 +23,12 @@
       <div class="form-group">
         <label for="exampleInputPassword1">Carga Horaria</label>
         <input type="text" class="form-control" name="disciplina.CargaHoraria" id="dCarga" placeholder="Insira a carga horaria">
-      </div>          
-         
+      </div>    
+       
+       <input type="hidden" name="disciplina.Status" id="dStatusY" value="true" checked>
+       
+
+
       <input type="submit" class="btn btn-default"/>
     </form>
   </div>
